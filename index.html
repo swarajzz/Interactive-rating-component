@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Interactive rating component using html, css and javascript"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/queries.css" />
+    <script defer="" src="js/script.js"></script>
+  </head>
+
+  <body>
+    <!-- Rating state start -->
+
+    <main>
+      <!-- <article class="container"> -->
+      <section class="section-front">
+        <div class="star-img">
+          <img src=" images/icon-star.svg" alt="star icon" />
+        </div>
+
+        <div class="content">
+          <h1 class="content-heading">How did we do?</h1>
+
+          <p class="content-text">
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+        </div>
+
+        <div class="rating">
+          <button class="btn--rating" id="btn--rating1">1</button>
+          <button class="btn--rating" id="btn--rating2">2</button>
+          <button class="btn--rating" id="btn--rating3">3</button>
+          <button class="btn--rating" id="btn--rating4">4</button>
+          <button class="btn--rating" id="btn--rating5">5</button>
+        </div>
+
+        <button class="btn--submit">Submit</button>
+
+        <!-- Rating state end -->
+      </section>
+
+      <!-- Thank you state start -->
+      <section class="section-result hidden">
+        <div class="result-img">
+          <img src="images/illustration-thank-you.svg" alt="review icon" />
+        </div>
+        <!-- You selected out of 5  -->
+        <div class="result-text">
+          <p>You selected <strong>4</strong> out of 5</p>
+        </div>
+        <!-- Add rating here -->
+        <div class="comment">
+          <p class="comment-heading">Thank you!</p>
+          <p class="comment-text">
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </p>
+
+          <!-- Thank you state end -->
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
