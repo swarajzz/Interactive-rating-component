@@ -6,12 +6,12 @@
 
 html {
   font-size: 62.5%;
-  background-color: hsl(216, 12%, 8%);
 }
 
 body {
   font-family: "Overpass", sans-serif;
   line-height: 1;
+  background-color: hsl(216, 12%, 8%);
 }
 
 main {
