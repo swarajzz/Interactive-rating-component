@@ -1,4 +1,4 @@
-<img src="/screenshots/design.png" />
+<img src="/screenshots/Design.png" />
 <img src="/screenshots/active.png" />
 
 <h1> Interactive rating component </h1>
@@ -9,11 +9,11 @@
       Live
     </a>
     <span> | </span>
-    <a href="#">
+    <a href="https://jsfiddle.net/Swarajzz/9kdqtv2n/13/">
       Solution
     </a>
    <span> | </span>
-    <a href="#">
+    <a href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI">
       Challenge
     </a>
   </h3>
