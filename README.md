@@ -1,6 +1,6 @@
 <p float="left" align="middle">
-  <img src="/screenshots/Design.png" width="100" />
-  <img src="/screenshots/active.png" width="100" /> 
+  <img src="/screenshots/Design.png" width="500" />
+  <img src="/screenshots/active.png" width="500" /> 
 </p>
 
 <h1> Interactive rating component </h1>
