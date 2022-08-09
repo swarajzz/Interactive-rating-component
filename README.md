@@ -1,5 +1,7 @@
-<img src="/screenshots/Design.png" />
-<img src="/screenshots/active.png" />
+<p float="left" align="middle">
+  <img src="/screenshots/Design.png" width="100" />
+  <img src="/screenshots/active.png" width="100" /> 
+</p>
 
 <h1> Interactive rating component </h1>
 
