@@ -2,8 +2,8 @@
   main {
     max-width: 36rem;
     margin: 10rem auto;
-    /* border-radius: 20px;
-    padding: 3.2rem; */
+    border-radius: 20px;
+    padding: 3rem;
   }
 
   .content-text,
